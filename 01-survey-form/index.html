@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">Pesquisa de Desenvolvedores Web</h1>
+    <p id="description">Compartilhe sua experiência e preferências no ecossistema de desenvolvimento de software.</p>
+
+    <form id="survey-form">
+      <!-- 1. Campo Nome -->
+      <label id="name-label" for="name">Nome completo</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Digite seu nome completo"
+        required
+      />
+
+      <!-- 2. Campo E-mail -->
+      <label id="email-label" for="email">E-mail corporativo</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="seuemail@exemplo.com"
+        required
+      />
+
+      <!-- 3. Campo Numérico (Anos de Experiência) -->
+      <label id="number-label" for="number">Anos de experiência (1 a 50)</label>
+      <input
+        type="number"
+        id="number"
+        name="experience"
+        min="1"
+        max="50"
+        placeholder="Ex: 5"
+      />
+
+      <!-- 4. Menu Suspenso (Dropdown) -->
+      <label for="dropdown">Qual é a sua área de atuação principal?</label>
+      <select id="dropdown" name="role">
+        <option value="frontend">Desenvolvedor Front-end</option>
+        <option value="backend">Desenvolvedor Back-end</option>
+        <option value="fullstack">Desenvolvedor Full-stack</option>
+      </select>
+
+      <!-- 5. Grupo de Opções Exclusivas (Radio Buttons) -->
+      <fieldset>
+        <legend>Você recomendaria o desenvolvimento web como carreira?</legend>
+        <label>
+          <input
+            type="radio"
+            name="recommend"
+            value="definitely"
+            checked
+          />
+          Com certeza
+        </label>
+        <label>
+          <input
+            type="radio"
+            name="recommend"
+            value="maybe"
+          />
+          Talvez
+        </label>
+        <label>
+          <input
+            type="radio"
+            name="recommend"
+            value="not-sure"
+          />
+          Não tenho certeza
+        </label>
+      </fieldset>
+
+      <!-- 6. Grupo de Múltipla Escolha (Checkboxes) -->
+      <fieldset>
+        <legend>Quais tecnologias você domina? (Marque todas aplicáveis)</legend>
+        <label>
+          <input
+            type="checkbox"
+            name="technologies"
+            value="html"
+          />
+          HTML5
+        </label>
+        <label>
+          <input
+            type="checkbox"
+            name="technologies"
+            value="css"
+          />
+          CSS3
+        </label>
+        <label>
+          <input
+            type="checkbox"
+            name="technologies"
+            value="javascript"
+          />
+          JavaScript
+        </label>
+        <label>
+          <input
+            type="checkbox"
+            name="technologies"
+            value="python"
+          />
+          Python
+        </label>
+      </fieldset>
+
+      <!-- 7. Caixa de Texto Multilinha -->
+      <label for="comments">Comentários ou sugestões adicionais:</label>
+      <textarea
+        id="comments"
+        name="comments"
+        rows="5"
+        placeholder="Deixe suas observações ou feedbacks aqui..."
+      ></textarea>
+
+      <!-- 8. Botão de Envio Oficial -->
+      <button type="submit" id="submit">Enviar Pesquisa</button>
+    </form>
+  </body>
+</html>
