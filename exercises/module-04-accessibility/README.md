@@ -4,7 +4,7 @@
 
 | # | Exercício | Tipo |
 |---|---|---|
-| 01 | [Debug: Camperbot's Blog](01-debug-blog-camperbot/) | Oficina |
+| 01 | [Debug: Camperbot's Blog](01-debug-camperbots-blog/) | Oficina |
 | 02 | [Tech Conference Schedule](02-tech-conference-schedule/) | Oficina |
 | 03 | [Debug: Donation Form](03-debug-donation-form/) | Laboratório |
 | 04 | [Audio Controls](04-audio-controls/) | Oficina |

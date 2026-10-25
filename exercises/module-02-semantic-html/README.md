@@ -4,7 +4,7 @@
 
 | # | Exercício | Tipo |
 |---|---|---|
-| 01 | [Lista de Navegadores Web](01-lista-navegadores-web/) | Oficina |
-| 02 | [Dicas de Quincy](02-dicas-quincy/) | Oficina |
-| 03 | [Blog do Mr. Whiskers](03-blog-mr-whiskers/) | Oficina |
+| 01 | [List of Web Browsers](01-list-of-web-browsers/) | Oficina |
+| 02 | [Quincy's Job Tips](02-quincys-job-tips/) | Oficina |
+| 03 | [Mr. Whiskers' Blog](03-mr-whiskers-blog/) | Oficina |
 | 04 | [Event Hub](04-event-hub/) | Laboratório |

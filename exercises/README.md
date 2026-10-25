@@ -12,11 +12,11 @@ Responsivo para Web]] do cofre de estudo:
 
 ```
 exercises/
-├── modulo-01-html-basico/
-│   ├── 01-esboco-curriculo/
-│   ├── 02-debug-perfil-camperbot/
+├── module-01-html-basics/
+│   ├── 01-resume-outline/
+│   ├── 02-debug-camperbot-profile/
 │   └── ...
-├── modulo-02-html-semantico/
+├── module-02-semantic-html/
 │   └── ...
 ```
 

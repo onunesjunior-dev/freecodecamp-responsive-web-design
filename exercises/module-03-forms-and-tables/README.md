@@ -6,5 +6,5 @@ está na raiz do repositório, não aqui).
 | # | Exercício | Tipo |
 |---|---|---|
 | 01 | [Hotel Feedback Form](01-hotel-feedback-form/) | Oficina |
-| 02 | [Calculus Final Exam Grades](02-tabela-exames-finais/) | Oficina |
-| 03 | [Book Catalog](03-catalogo-livros/) | Laboratório |
+| 02 | [Calculus Final Exam Grades](02-final-exam-grades-table/) | Oficina |
+| 03 | [Book Catalog](03-book-catalog/) | Laboratório |
