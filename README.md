@@ -17,3 +17,8 @@ Full-Stack completos no momento da última atualização deste README (77,25%).
 | 5 | Product Landing Page | — | ⬜ |
 
 Cada pasta tem seu próprio README explicando o projeto e os testes cobertos.
+
+## Exercícios
+
+Além dos 5 projetos, a pasta [`exercises/`](exercises/) guarda as oficinas e laboratórios
+práticos resolvidos módulo por módulo ao longo do currículo.
