@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Technical Documentation Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>JS Documentation</header>
+      <ul>
+        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+        <li><a class="nav-link" href="#Variables_and_Constants">Variables and Constants</a></li>
+        <li><a class="nav-link" href="#Arrow_Functions">Arrow Functions</a></li>
+        <li><a class="nav-link" href="#Destructuring_Assignment">Destructuring Assignment</a></li>
+        <li><a class="nav-link" href="#Promises_and_Async_Await">Promises and Async Await</a></li>
+        <li><a class="nav-link" href="#CSS_Media_Queries">CSS Media Queries</a></li>
+      </ul>
+    </nav>
+
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <p>JavaScript is a versatile, high-level programming language that conforms to the ECMAScript specification.</p>
+        <p>Modern web development relies heavily on ECMAScript standards to deliver interactive client-side applications.</p>
+        <code>const greeting = "Hello, World!";</code>
+      </section>
+
+      <section class="main-section" id="Variables_and_Constants">
+        <header>Variables and Constants</header>
+        <p>ES6 introduced block-scoped variable declarations using let and const.</p>
+        <p>Unlike var, let and const prevent accidental hoisting anomalies and redeclarations.</p>
+        <code>let counter = 0;</code>
+        <code>const MAX_USERS = 100;</code>
+        <ul>
+          <li>Use const by default for immutable bindings.</li>
+          <li>Use let only when variable reassignment is necessary.</li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="Arrow_Functions">
+        <header>Arrow Functions</header>
+        <p>Arrow functions provide a compact syntax for writing function expressions in modern JavaScript.</p>
+        <p>They do not have their own this, arguments, super, or new.target bindings.</p>
+        <code>const add = (a, b) => a + b;</code>
+        <ul>
+          <li>Lexical this binding makes them ideal for callbacks.</li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="Destructuring_Assignment">
+        <header>Destructuring Assignment</header>
+        <p>The destructuring assignment syntax allows unpacking values from arrays or properties from objects into distinct variables.</p>
+        <p>This syntax makes extracting nested properties clean and concise.</p>
+        <code>const { id, title } = book;</code>
+        <code>const [first, second] = items;</code>
+        <ul>
+          <li>Supports default fallback values.</li>
+          <li>Allows property aliasing during extraction.</li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="Promises_and_Async_Await">
+        <header>Promises and Async Await</header>
+        <p>Promises represent the eventual completion or failure of an asynchronous operation.</p>
+        <p>The async and await keywords allow asynchronous, promise-based behavior to be written in a cleaner, synchronous style.</p>
+        <code>async function fetchData(url) { const res = await fetch(url); return res.json(); }</code>
+      </section>
+
+      <section class="main-section" id="CSS_Media_Queries">
+        <header>CSS Media Queries</header>
+        <p>Media queries are a core component of responsive web design that inspect user-agent characteristics.</p>
+        <p>They allow layouts to adapt fluidly across devices ranging from mobile screens to ultra-wide desktop monitors.</p>
+        <code>@media (max-width: 768px) { #navbar { position: relative; } }</code>
+        <ul>
+          <li>Inspect width, height, orientation and user preferences.</li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
