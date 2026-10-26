@@ -1,0 +1,112 @@
+/* Reset Básico de Margens e Caixa */
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background-color: #f4f1ea;
+  color: #1a1a1a;
+  padding: 20px;
+}
+
+/* ==========================================================================
+   GRADE PRINCIPAL DO JORNAL (User Stories 12 a 19)
+   ========================================================================== */
+.newspaper-layout {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto 1fr 1fr 1fr;
+  grid-template-areas:
+    "title title title"
+    "feature-article feature-article cover-image"
+    "secondary-article secondary-article cover-image"
+    "small-article1 small-article2 small-article3";
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* ==========================================================================
+   VINCULAÇÃO DAS ÁREAS NOMEADAS (User Stories 20 a 26)
+   ========================================================================== */
+.title {
+  grid-area: title;
+  text-align: center;
+  border-bottom: 4px double #1a1a1a;
+  padding-bottom: 10px;
+}
+
+.title h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.feature-article {
+  grid-area: feature-article;
+  border-right: 1px solid #ccc;
+  padding-right: 15px;
+}
+
+.feature-article h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.secondary-article {
+  grid-area: secondary-article;
+  border-right: 1px solid #ccc;
+  padding-right: 15px;
+}
+
+.secondary-article h2 {
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+}
+
+.cover-image {
+  grid-area: cover-image;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover-image img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  border: 1px solid #1a1a1a;
+}
+
+.small-article1 {
+  grid-area: small-article1;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+
+.small-article2 {
+  grid-area: small-article2;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  padding: 10px 15px 0 15px;
+}
+
+.small-article3 {
+  grid-area: small-article3;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+
+.small-article1 h3,
+.small-article2 h3,
+.small-article3 h3 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}

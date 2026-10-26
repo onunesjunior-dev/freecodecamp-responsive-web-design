@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Landing Page - Original Trombones</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- User Stories 1, 2, 3, 4, 5, 6, 7: Header fixo com Logo e Barra de Navegação -->
+    <header id="header">
+      <div class="logo">
+        <img
+          id="header-img"
+          src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+          alt="Original Trombones Company Logo"
+        />
+      </div>
+
+      <!-- User Stories 8, 9, 10, 23: Nav com links âncora fixos no topo -->
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#features">Features</a></li>
+          <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+          <li><a class="nav-link" href="#pricing">Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="page-container">
+      <!-- Seção Hero com Formulário de Captura de Leads (User Stories 13 a 22) -->
+      <section id="hero">
+        <h2>Handcrafted, top-of-the-line masterpieces</h2>
+        <form id="form" action="https://www.freecodecamp.org/email-submit" method="post">
+          <input
+            id="email"
+            type="email"
+            name="email"
+            placeholder="Enter your email address"
+            required
+          />
+          <input id="submit" type="submit" value="Get Started" />
+        </form>
+      </section>
+
+      <!-- Seção de Recursos e Diferenciais Competitivos (User Story 10) -->
+      <section id="features">
+        <div class="feature-item">
+          <div class="icon">🎺</div>
+          <div class="desc">
+            <h3>Premium Materials</h3>
+            <p>Our trombones use the highest quality virgin brass sourced from Bavaria, ensuring resonant acoustic warmth.</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="icon">🚚</div>
+          <div class="desc">
+            <h3>Fast Shipping</h3>
+            <p>We provide zero-cost worldwide priority air shipping in custom fiberglass hardshell protective cases.</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="icon">⭐</div>
+          <div class="desc">
+            <h3>Quality Assurance</h3>
+            <p>Every single instrument is rigorously hand-tested and acoustic-matched by seasoned orchestra brass maestros.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Seção com Vídeo Incorporado (User Stories 11 e 12) -->
+      <section id="how-it-works">
+        <div class="video-container">
+          <iframe
+            id="video"
+            src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc"
+            title="How Trombones Are Made"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+
+      <!-- Seção de Planos e Preços com Flexbox (User Story 25) -->
+      <section id="pricing">
+        <div class="product" id="tenor">
+          <div class="product-title">Tenor Trombone</div>
+          <h2>$600</h2>
+          <ol>
+            <li>Includes soft gig bag</li>
+            <li>Stainless steel slide</li>
+            <li>Great for jazz & marching</li>
+          </ol>
+          <button class="btn">Select</button>
+        </div>
+
+        <div class="product" id="bass">
+          <div class="product-title">Bass Trombone</div>
+          <h2>$900</h2>
+          <ol>
+            <li>Dual independent rotors</li>
+            <li>Includes flight case</li>
+            <li>Rich low-register resonance</li>
+          </ol>
+          <button class="btn">Select</button>
+        </div>
+
+        <div class="product" id="valve">
+          <div class="product-title">Valve Trombone</div>
+          <h2>$1200</h2>
+          <ol>
+            <li>Monel piston valves</li>
+            <li>Gold brass acoustic bell</li>
+            <li>Plays like a trumpet</li>
+          </ol>
+          <button class="btn">Select</button>
+        </div>
+      </section>
+
+      <!-- Rodapé Institucional -->
+      <footer>
+        <ul>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <span>Copyright 2026, Original Trombones</span>
+      </footer>
+    </div>
+  </body>
+</html>
