@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio - Nunes Junior</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!-- 1. Barra de Navegação Fixa -->
+    <nav id="navbar">
+      <div class="nav-container">
+        <a href="#welcome-section" class="nav-logo">
+          <span class="logo-badge">NJ</span>
+          <span class="logo-text">Nunes Junior</span>
+        </a>
+        <ul class="nav-links">
+          <li><a href="#welcome-section" class="nav-item">Sobre</a></li>
+          <li><a href="#project-section" class="nav-item">Projetos</a></li>
+          <li><a href="#contact-section" class="nav-item">Contato</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- 2. Seção de Boas-Vindas (100vh) -->
+    <section id="welcome-section">
+      <div class="welcome-content">
+        <div class="status-pill">
+          <span class="status-dot"></span> Disponível para Novos Projetos
+        </div>
+        <h1>Engenharia Web & Interfaces Modernas</h1>
+        <p class="welcome-subtitle">
+          Desenvolvedor Full-Stack focado em arquiteturas performáticas, CSS avançado, design de alta fidelidade e sistemas escaláveis.
+        </p>
+        <div class="welcome-cta">
+          <a href="#project-section" class="btn btn-primary">Ver Projetos</a>
+          <a href="#contact-section" class="btn btn-secondary">Entrar em Contato</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Seção de Projetos -->
+    <section id="project-section">
+      <div class="section-header">
+        <span class="section-tag">Portfólio de Engenharia</span>
+        <h2>Projetos em Destaque</h2>
+        <p>Aplicações, componentes e layouts construídos com foco em rigor arquitetural e acessibilidade.</p>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Projeto 1 -->
+        <article class="project-tile">
+          <div class="project-preview preview-landing"></div>
+          <div class="project-info">
+            <div class="project-tags">
+              <span>CSS Grid</span>
+              <span>Flexbox</span>
+              <span>HTML5</span>
+            </div>
+            <h3>Landing Page de Produto</h3>
+            <p>Página de conversão de alto impacto para instrumentos musicais artesanais com navegação sticky e vídeo responsivo.</p>
+            <a href="https://github.com/onunesjunior-dev" target="_blank" class="project-link">Explorar Código &rarr;</a>
+          </div>
+        </article>
+
+        <!-- Projeto 2 -->
+        <article class="project-tile">
+          <div class="project-preview preview-docs"></div>
+          <div class="project-info">
+            <div class="project-tags">
+              <span>Design Responsivo</span>
+              <span>Layout 2D</span>
+              <span>Docs</span>
+            </div>
+            <h3>Documentação Técnica CSS</h3>
+            <p>Portal completo de especificações para desenvolvedores com sumário lateral de navegação e blocos de código sintáticos.</p>
+            <a href="https://github.com/onunesjunior-dev" target="_blank" class="project-link">Explorar Código &rarr;</a>
+          </div>
+        </article>
+
+        <!-- Projeto 3 -->
+        <article class="project-tile">
+          <div class="project-preview preview-orbit"></div>
+          <div class="project-info">
+            <div class="project-tags">
+              <span>CSS Animations</span>
+              <span>Keyframes</span>
+              <span>Transform</span>
+            </div>
+            <h3>Simulação de Órbita Lunar</h3>
+            <p>Sistema planetário concêntrico animado em CSS puro, demonstrando matrizes de rotação e centralização cartesiana.</p>
+            <a href="https://github.com/onunesjunior-dev" target="_blank" class="project-link">Explorar Código &rarr;</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 4. Seção de Contato & Perfil Externo -->
+    <footer id="contact-section">
+      <div class="contact-content">
+        <h2>Vamos construir algo extraordinário juntos?</h2>
+        <p>Conecte-se comigo no GitHub para acompanhar meus repositórios, estudos de arquitetura e projetos open source.</p>
+        <div class="contact-actions">
+          <a id="profile-link" href="https://github.com/onunesjunior-dev" target="_blank" class="btn btn-primary">
+            Acessar Perfil no GitHub
+          </a>
+        </div>
+        <p class="footer-copy">&copy; 2026 Nunes Junior. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+  </body>
+</html>
